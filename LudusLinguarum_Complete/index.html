@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ludus Linguarum</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="parchment">
+    <header>
+      <img src="blason.svg" alt="Blason" class="blason"/>
+      <h1>Ludus Linguarum</h1>
+      <p>Bienvenue, noble apprenant</p>
+    </header>
+    <main>
+      <section id="carte">
+        <h2>🗺️ Royaume des Langues</h2>
+        <img src="carte.png" alt="Carte du royaume" class="carte"/>
+      </section>
+
+      <section class="lesson-card">
+        <h2>Unité I : Salutations</h2>
+        <p>Comment dit-on 'Bonjour' en latin ?</p>
+        <button onclick="answer('Salve')">Salve</button>
+        <button onclick="answer('Vale')">Vale</button>
+        <button onclick="answer('Gratia')">Gratia</button>
+        <button onclick="answer('Bene')">Bene</button>
+
+        <p class="oral">
+          🔊 Écouter la prononciation :
+          <audio controls src="audio/salve.mp3"></audio>
+        </p>
+      </section>
+
+      <div id="xp-display">🏅 Écus d’or : <span id="xp">0</span></div>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
