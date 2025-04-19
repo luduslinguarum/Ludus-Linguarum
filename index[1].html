@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ludus Linguarum</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <img src="blason.svg" alt="Blason" class="blason"/>
+    <h1>Ludus Linguarum</h1>
+    <p>L'art des langues à la manière des chevaliers</p>
+  </header>
+  <main>
+    <div class="lesson-card">
+      <h2>Unité I : Salutations</h2>
+      <p>Comment dit-on 'Bonjour' en latin ?</p>
+      <button onclick="answer('Salve')">Salve</button>
+      <button onclick="answer('Vale')">Vale</button>
+      <button onclick="answer('Gratia')">Gratia</button>
+      <button onclick="answer('Bene')">Bene</button>
+    </div>
+    <div id="xp-display">🏅 Écus d’or : <span id="xp">0</span></div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

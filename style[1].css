@@ -1,0 +1,38 @@
+body {
+  font-family: 'Garamond', serif;
+  background-color: #fdf6e3;
+  color: #4b2e2e;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  font-family: 'Old English Text MT', serif;
+  font-size: 3em;
+  color: #7c0a02;
+}
+header img.blason {
+  width: 100px;
+}
+.lesson-card {
+  background: #f9f1d8;
+  border: 2px solid #7c0a02;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+}
+button {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: #7c0a02;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+#xp-display {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
