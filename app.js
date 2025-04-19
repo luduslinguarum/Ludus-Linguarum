@@ -1,0 +1,1 @@
+console.log("Ludus Linguarum, prêt à enseigner l'anglais !");
